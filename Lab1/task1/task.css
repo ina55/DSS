@@ -1,0 +1,26 @@
+/**
+
+  Use animations here. Useful resources on http://docs.codacloud.net
+
+**/
+
+@keyframes jump {
+    from {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-100px);
+    }
+}
+
+.man {
+    /* TODO */
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.left.hand {
+    animation-name: lefthandHi
+}
